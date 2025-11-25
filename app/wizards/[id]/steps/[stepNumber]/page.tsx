@@ -54,7 +54,7 @@ export default async function WizardStepPage({
         className="fixed inset-0 flex flex-col overflow-hidden font-sans"
         style={{
             fontFamily: wizard.font_family || '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
-            background: 'linear-gradient(135deg, #14b8a6 0%, #06b6d4 100%)',
+            background: 'linear-gradient(135deg, #0d9488 0%, #14b8a6 25%, #06b6d4 75%, #0891b2 100%)',
         }}
     >
         {/* Progress Bar */}
